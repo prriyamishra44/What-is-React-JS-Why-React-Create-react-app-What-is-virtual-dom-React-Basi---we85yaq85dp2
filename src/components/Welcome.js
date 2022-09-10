@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Welcome = ({name}) => {
-    let sayHi = `Hey !${name}!`;
+    let sayHi = `Hey ${name}!`;
     let greetMessage = `Welcome to Newton School.`;
     return (
         <div>
